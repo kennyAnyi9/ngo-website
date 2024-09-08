@@ -26,10 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} flex flex-col min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} flex flex-col min-h-screen font-sans`}
       >
         <Header />
-        <main className="flex-grow">{children}</main>
+        <main className="flex-grow ">{children}</main>
         <Footer />
       </body>
     </html>
